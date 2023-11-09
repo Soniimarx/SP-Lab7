@@ -1,8 +1,5 @@
-/* Single server-client connection. Small modifications by C. Busby-Earle */
-// Shemar Marks : 620149911
 
 
-//client.c
 #include <stdio.h>
 #include <stdlib.h> /* for exit () function */
 #include <string.h> /* for memset() and string functions */
@@ -64,4 +61,3 @@ int main(int argc, char *argv[])
   close(sock_send);
 }
 
-/**/
