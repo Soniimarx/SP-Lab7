@@ -1,7 +1,4 @@
-/* Single server-client connection; server can talk to only
-   one client at a time. Small modifications by C. Busby-Earle.
-   Will need to amend firewall rules if necessary */
-//Shemar Marks: 620149911
+
 #include <stdio.h>
 #include <stdlib.h>     /* for exit function */
 #include <string.h>     /* for memset and string functions */
